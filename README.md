@@ -1,3 +1,4 @@
+```text
 meu-curso-frontend/
 ├── README.md
 ├── 01-html-css/
@@ -11,3 +12,4 @@ meu-curso-frontend/
 │   └── exercicio-02-dom/
 └── 03-projetos/
     └── projeto-guiado-01/
+```

@@ -1,0 +1,13 @@
+h1{
+  background-color: rgba(0, 0, 0, 0);
+  padding:25px;
+  color:#eee;
+  text-align: center;
+}
+.cont.app{
+  background-color:#aaa;
+}
+ul{
+  padding: 40px;
+  min-width:100vh;
+}

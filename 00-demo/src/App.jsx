@@ -22,9 +22,19 @@ function App() {
     <li>Desenvolvedor de E-commerce / Plataformas (ex: Shopify, WooCommerce, Magento): Focado na criação, customização e manutenção de lojas virtuais, configurando meios de pagamento, integração de frete e layout.</li>
   
   </ul>
+  <h2>Vou fazer faculdade de outra coisa, ser dev vai me ajudar?</h2>
+  <p>Com certeza. Mesmo que você siga uma carreira completamente fora da área de TI, aprender a programar e ter uma lógica de desenvolvimento web traz vantagens gigantescas no mercado atual.</p>
+  <ul>
+    <li>Automação de Tarefas Repetitivas: Você conseguirá criar rotinas simples em código (scripts) para processar planilhas, organizar relatórios, enviar e-mails ou coletar dados em segundos, economizando horas de trabalho manual.</li>
+  <li>Resolução Estruturada de Problemas: A programação ensina a quebrar problemas gigantes em partes menores e lógicas. Essa habilidade (pensamento computacional) é extremamente valorizada em qualquer cargo de liderança ou gestão.</li>
+  <li>Raciocínio Lógico e Analítico: A facilidade para interpretar dados, identificar padrões e tomar decisões baseadas em evidências se torna muito maior.</li>
+  <li>Ponte Entre Negócios e TI: Em qualquer empresa, há uma falha de comunicação entre a equipe de negócios e o setor de tecnologia. Você será o profissional capaz de "traduzir" as necessidades do seu setor para os desenvolvedores, tornando-se uma peça estratégica.</li>
+  </ul>
+  <h2>Trampo com tecnologia mas sem programação</h2>
+  <p>Product Owner (PO) / Product Manager (PM): Define o que o produto de tecnologia deve fazer, prioriza as funcionalidades que trazem mais valor e guia o time de desenvolvimento com base nas necessidades dos clientes e do negócio.</p>
+  <p>Scrum Master / Agile Coach: Focado em facilitar processos, remover impedimentos da equipe técnica e garantir que o time de desenvolvimento trabalhe de forma ágil e eficiente.</p>
   </div>
   )
-  
 }
 
 export default App

@@ -29,11 +29,15 @@ function App() {
   <li>Resolução Estruturada de Problemas: A programação ensina a quebrar problemas gigantes em partes menores e lógicas. Essa habilidade (pensamento computacional) é extremamente valorizada em qualquer cargo de liderança ou gestão.</li>
   <li>Raciocínio Lógico e Analítico: A facilidade para interpretar dados, identificar padrões e tomar decisões baseadas em evidências se torna muito maior.</li>
   <li>Ponte Entre Negócios e TI: Em qualquer empresa, há uma falha de comunicação entre a equipe de negócios e o setor de tecnologia. Você será o profissional capaz de "traduzir" as necessidades do seu setor para os desenvolvedores, tornando-se uma peça estratégica.</li>
+  <li>Direito: Criação de automações para análise de grandes volumes de processos, jurimetria e compreensão de contratos de tecnologia, proteção de dados (LGPD) e cybersecurity.</li>
   </ul>
   <h2>Trampo com tecnologia mas sem programação</h2>
   <p>Product Owner (PO) / Product Manager (PM): Define o que o produto de tecnologia deve fazer, prioriza as funcionalidades que trazem mais valor e guia o time de desenvolvimento com base nas necessidades dos clientes e do negócio.</p>
   <p>Scrum Master / Agile Coach: Focado em facilitar processos, remover impedimentos da equipe técnica e garantir que o time de desenvolvimento trabalhe de forma ágil e eficiente.</p>
-  </div>
+ <p>UI/UX Designer: Desenho de interfaces (UI) e mapeamento da jornada do usuário (UX). Você projeta como as telas, botões e fluxos de um aplicativo ou site devem funcionar para serem fáceis e intuitivos.</p>
+ <p>UX Researcher: Focado em entender o comportamento, dores e necessidades dos usuários por meio de pesquisas, entrevistas e testes de usabilidade.</p>
+ <p>Solutions Architect / Pre-Sales Engineer: Atua junto ao time comercial para entender o problema técnico do cliente e propor a melhor solução de software ou infraestrutura, sem necessariamente programá-la.</p>
+ </div>
   )
 }
 

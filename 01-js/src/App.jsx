@@ -1,7 +1,108 @@
+import { useState } from 'react'
 import './App.css'
 
-function App() {
 
+
+function App() {
+  const[resultado, setResultado] = useState(0)
+
+function calcularJares() {
+  let caminhoes = Number(prompt("Digite a quantidade de caminhões:"))
+
+  let jarePorCaminhao = 50
+  let custoPorCaminhao = 450
+  let precoPorJare = 90
+
+  let totalJares = caminhoes * jarePorCaminhao
+  let receita = totalJares * precoPorJare
+  let custo = caminhoes * custoPorCaminhao
+  let lucro = receita - custo
+
+  alert(
+    "Total de jarés: " + totalJares +
+    "\nReceita: R$ " + receita.toFixed(2) +
+    "\nCusto: R$ " + custo.toFixed(2) +
+    "\nLucro: R$ " + lucro.toFixed(2)
+  )
+}
+
+function calcularTokens() {
+  let caracteres = Number(prompt("Digite o número de caracteres do prompt:"))
+
+  let tokens = 5 + caracteres
+
+  alert("Quantidade de tokens: " + tokens)
+}
+
+function calcularCustoPrompt() {
+  let caracteres = Number(prompt("Digite o número de caracteres do prompt:"))
+  let custoToken = Number(prompt("Digite o custo de cada token:"))
+
+  let tokens = 5 + caracteres
+  let custo = tokens * custoToken
+
+  alert(
+    "Quantidade de tokens: " + tokens +
+    "\nCusto do prompt: R$ " + custo.toFixed(2)
+  )
+}
+
+function calcularFreela() {
+  let horas = Number(prompt("Digite a quantidade de horas estimadas:"))
+
+  let valorConsultor = 500
+  let valorPorHora = 350
+
+  let precoCliente = valorConsultor + (horas * valorPorHora)
+
+  alert("Preço que Junin deve cobrar: R$ " + precoCliente.toFixed(2))
+}
+
+function calcularLucroFreela() {
+  let horas = Number(prompt("Digite a quantidade de horas estimadas:"))
+
+  let valorConsultor = 500
+  let valorPorHora = 350
+
+  let precoCliente = valorConsultor + (horas * valorPorHora)
+  let lucro = precoCliente - valorConsultor
+
+  alert(
+    "Preço cobrado: R$ " + precoCliente.toFixed(2) +
+    "\nLucro do freela: R$ " + lucro.toFixed(2)
+  )
+}
+
+function calcularRelatorios() {
+  let relatoriosPF = 40
+  let relatoriosPJ = 33
+
+  let horasPF = 12
+  let horasPJ = 42
+
+  let valorPF = 2350
+  let valorPJ = 8900
+
+  let totalRelatorios = relatoriosPF + relatoriosPJ
+  let totalHoras = horasPF + horasPJ
+  let totalRecebido = valorPF + valorPJ
+
+  let mediaValorPF = valorPF / relatoriosPF
+  let mediaValorPJ = valorPJ / relatoriosPJ
+
+  let mediaTempoPF = horasPF / relatoriosPF
+  let mediaTempoPJ = horasPJ / relatoriosPJ
+
+  alert(
+    "Total de relatórios: " + totalRelatorios +
+    "\nTempo total trabalhado: " + totalHoras + " horas" +
+    "\nValor total recebido: R$ " + totalRecebido.toFixed(2) +
+    "\nMédia por relatório PF: R$ " + mediaValorPF.toFixed(2) +
+    "\nMédia por relatório PJ: R$ " + mediaValorPJ.toFixed(2) +
+    "\nMédia de tempo PF: " + mediaTempoPF.toFixed(2) + " horas" +
+    "\nMédia de tempo PJ: " + mediaTempoPJ.toFixed(2) + " horas"
+  )
+}
 
 
    function calcularSalario() {
@@ -209,11 +310,20 @@ alert('O time teu tem ' + pontos + ' pontos')
       let media = (nota1+nota2) / 2
       alert('Sua média: ' + media)
   }
+  function calcularDobro(){
+    let numero = Number(prompt("Digite o numero A-GO-RA:"))
+    let dobro = numero * 2
+    setResultado(dobro);
+  }
   return (
   
    <div className="cont-app">
-   
-    
+    <h1>Javascript no react</h1>
+    <hr />
+    <h2>usando estados</h2>
+   <button onClick={calcularDobro}> Estados - dobro</button>
+   <p>Resultado da operação: {resultado}</p>
+    <hr />
  {
   
   ( <div className="header-container">
@@ -227,7 +337,7 @@ alert('O time teu tem ' + pontos + ' pontos')
   )
 }
 
-    <h2>bloco a </h2>
+    <h2>Bloco a </h2>
 <button onClick={calcularPontos} >Campeonato</button>
 <button onClick={trocarSapatos}>Trocas Pé Pequeno</button>
 <button onClick={calcularDevs}>Guilherme Portões</button>
@@ -238,7 +348,7 @@ alert('O time teu tem ' + pontos + ' pontos')
 <button onClick={calcularCarga}>Peso da carga</button>
 <button onClick={calcularChance}>Chance</button>
 <hr />
-<h2>bloco b</h2>
+<h2>Bloco b</h2>
 <button onClick={calcularFrete}>Calcular Frete</button>
 <button onClick={calcularLucro}>Calcular Lucro</button>
 <button onClick={calcularLucroCapitao}>Calcular Lucro</button>
@@ -247,7 +357,27 @@ alert('O time teu tem ' + pontos + ' pontos')
 <button onClick={calcularPreco}>Calcular Preço</button>
 <button onClick={calcularRacao}>Calcular Ração</button>
 <button onClick={calcularChurrasco}>Calcular Churrasco</button>
+<hr />
+<h2>Bloco c</h2>
+<button onClick={calcularJares}>Gael e seus jarés</button>
 
+<button onClick={calcularTokens}>I.A. e o preço dos prompts</button>
+
+<button onClick={calcularCustoPrompt}>Custo do prompt</button>
+
+<button onClick={calcularFreela}>Junin e seus freelas</button>
+
+<button onClick={calcularLucroFreela}>Lucro do freela</button>
+
+<button onClick={calcularRelatorios}>Kowalski e os relatórios</button>
+
+<hr />
+
+<h2></h2>
+
+<button onClick={testar}>Testar</button>
+
+<button onClick={calcularMedia}>Média</button>
 
 <hr />
 <h2></h2>

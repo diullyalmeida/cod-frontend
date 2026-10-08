@@ -3,7 +3,9 @@ import './App.css'
 import './Joguinho'
 import Joguinho from './Joguinho'
 import Pousada from './pousada'
-
+import Votar from './components/votar'
+import Peso from './components/Peso'
+import Total from './components/Total'
 function App() {
  
   return (
@@ -12,6 +14,10 @@ function App() {
    
 <Joguinho></Joguinho>
 <Pousada></Pousada>
+<Votar></Votar>
+<Peso></Peso>
+<Total></Total>
+
    </div>
   )
 }

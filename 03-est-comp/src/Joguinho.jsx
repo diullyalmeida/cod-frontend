@@ -12,7 +12,8 @@ function Joguinho(){
     setResultado("supimpa!")
 
 
-   }else {setResultado("farmou aura")
+   }else {
+    setResultado("farmou aura")
    }
 }
   return (

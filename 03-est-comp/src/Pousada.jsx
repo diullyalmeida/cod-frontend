@@ -35,3 +35,4 @@ function Pousada() {
 }
 
 export default Pousada;
+  

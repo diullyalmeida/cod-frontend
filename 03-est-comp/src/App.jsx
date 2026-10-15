@@ -8,6 +8,12 @@ import Peso from './components/Peso'
 import Total from './components/Total'
 import Recrutamento from './components/Recrutamento'
 import Gansooo from './components/Gansooo'
+import Fumaca from './components/Fumaca'
+import Deslocamento from './components/Deslocamento'
+import Palco from './components/Palco'
+import Acesso from './components/Acesso'
+import Automatizada from './components/Automatizada'
+import Sistema from './components/Sistema'
 function App() {
  
   return (
@@ -23,6 +29,13 @@ function App() {
 <Peso />
 <Total />
 <Recrutamento />
+<Sistema />
+<Fumaca />
+<Deslocamento />
+<Palco />
+<Acesso />
+<Automatizada />
+
 
 
    </div>

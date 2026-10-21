@@ -22,7 +22,7 @@ function App() {
         <button onClick={()=> setPagina(4)}>Oração do aprendiz</button>
       </nav>
 
-   <h1>Navegação</h1>
+   
    { pagina==0 &&  <Primeira />}
    { pagina==1 &&  <Segunda />}
    { pagina==2 &&  <Terceira />}

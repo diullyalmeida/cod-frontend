@@ -3,6 +3,7 @@ import React from 'react'
 function Terceira() {
   return (
     <div>Concedei-me, Senhor,
+<h1>Oração do Resiliente</h1>Concedei-me, Senhor,
 
 a força para lidar com o código que não entendo,
 

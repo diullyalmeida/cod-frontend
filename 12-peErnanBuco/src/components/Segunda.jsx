@@ -3,7 +3,7 @@ import React from 'react'
 function Segunda() {
   return (
     <div>Senhor dos Códigos,
-
+<h1>Oração do estudante</h1>
 Concede-me memória RAM e memória humana.
 
 Faze com que os bugs da aula não se repliquem na minha cabeça,

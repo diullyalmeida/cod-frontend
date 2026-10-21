@@ -2,7 +2,10 @@ import React from 'react'
 
 function Quarta() {
   return (
+
     <div>Ave CSS, cheia de bugs,
+    <h1>Oração do Frontend</h1>Ave CSS, cheia de bugs,
+
 
 O framework é convosco,
 

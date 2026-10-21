@@ -4,7 +4,11 @@ function Quinta() {
   return (
 
     <div>
+
 Oh Grande Sintaxe,
+
+<h1>Oração do aprendiz</h1>Oh Grande Sintaxe,
+
 
 que tudo vê e tudo espera,
 
